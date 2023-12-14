@@ -1,0 +1,40 @@
+numpy
+Pillow==8.4.0
+scikit-learn==1.1.1
+pandas~=1.4.3
+scikit-optimize
+pytest
+pytest-cov
+pylint
+pytest-pylint
+# # scikit-learn
+matplotlib
+seaborn~=0.11.1
+tabulate~=0.8.9
+scipy~=1.10.1
+tqdm~=4.56.0
+joblib~=1.0.0
+# sunbird
+# # combat
+# pycombat
+PTable
+# torch
+# torchvision
+# tensorboardX
+# tensorboard
+# tensorflow
+# ax-platform
+psutil
+# scikit-image
+nibabel
+mpmath
+patsy
+# umap-learn
+# shapely
+# rpy2
+
+# R packages:
+# install.packages("harmony")
+# install.packages("sva")
+# BiocManager::install("zinbwave")
+# install.packages("factor")

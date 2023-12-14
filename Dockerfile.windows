@@ -1,0 +1,11 @@
+FROM mcr.microsoft.com/windowsservercore
+
+SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+
+ADD msml ./msml/
+# ADD resources2 C:/Users/simon/Desktop/resources
+ADD ./resources/old_data/raw ./resources/old_data/raw
+ADD ./raw2mzDB_0.9.10_build20170802/raw2mzDB.exe ./raw2mzDB_0.9.10_build20170802/raw2mzDB.exe
+# ADD msml/preprocess/raw2mzdb.bat raw2mzdb.bat
+
+# CMD c:\\raw2mzdb.bat
